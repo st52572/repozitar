@@ -20,7 +20,7 @@ export class Input extends React.Component {
             <>
                 <input
                     onChange={(event => this.setState({text: event.target.value}))}/>
-                <button onClick={event => <Note note={{id: 0,text: "pica"}}/>}>Přidat</button>
+                <button>Přidat</button>
 
             </>
         )
