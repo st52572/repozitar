@@ -8,18 +8,18 @@ import {NoteListLoader} from "./components/noteListLoader/NoteListLoader";
 const data = [
     {
         id: 1,
-        text: "Xiaomi"
+        text: "Úkol 1"
     },
     {
         id: 2,
-        text: "Samsung"
+        text: "Úkol 2"
     }
 ];
 
 function App() {
     return (
         <div id="App">
-
+            <h3>Úkoly</h3>
             <AppComponent/>
             <NoteList notes={data}/>
 
